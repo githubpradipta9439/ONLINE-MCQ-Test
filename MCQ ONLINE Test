@@ -1,0 +1,127 @@
+<html>
+<head>
+   <title>MCQ Test</title>
+   <h1>  MATH MCQ </h1>
+</head>
+<script>
+function check() 
+{
+  var c=0;
+  var q1=document.quiz.question1.value;
+  var q2=document.quiz.question2.value;
+  var q3=document.quiz.question3.value;
+  var q4=document.quiz.question4.value;
+  var q5=document.quiz.question5.value;
+  var q6=document.quiz.question6.value;
+  var q7=document.quiz.question7.value;
+  var q8=document.quiz.question8.value;
+  var q9=document.quiz.question9.value;
+  var q10=document.quiz.question10.value;
+  var reult=document.getElementById('result');
+  var quiz=document.getElementById("quiz");
+  
+  if(q1=="4000"){c++}
+  if(q2=="25.5"){c++}
+  if(q3=="552"){c++}
+  if(q4=="2"){c++}
+  if(q5=="15"){c++}
+  if(q6=="3:5"){c++}
+  if(q7=="20%"){c++}
+  if(q8=="0.00006"){c++}
+  if(q9=="600"){c++}
+  if(q10=="15"){c++}
+  
+  document.write("YOUR  RESULT  IS :  ");
+  document.write(c);
+  
+}
+
+</script>
+<body>
+
+<form name="quiz" id="quiz">
+
+    <div>
+      <h1>Q 1. 80*50-0+40*10*0=_____ ?</h>
+      <h2><input type="radio" name="question1" value="0">A. 0</h2>
+      <h2><input type="radio" name="question1" value="600">B. 600</h2>
+      <h2><input type="radio" name="question1" value="4000">C. 4000</h2>
+      <h2><input type="radio" name="question1" value="3600">D. 3600</h2>
+    </div>
+	
+	 <div>
+      <h1>Q 2. The average of first 50 natural numbers is _____ ?</h>
+      <h2><input type="radio" name="question2" value="25.30">A. 25.30</h2>
+      <h2><input type="radio" name="question2" value="25.5">B. 25.5</h2>
+      <h2><input type="radio" name="question2" value="25.00">C. 25.00</h2>
+      <h2><input type="radio" name="question2" value="12.25">D. 12.25</h2>
+    </div>
+	
+	 <div>
+      <h1>Q 3.  The number of 3-digit numbers divisible by 6, is  _____ ?</h>
+      <h2><input type="radio" name="question3" value="502">A. 502</h2>
+      <h2><input type="radio" name="question3" value="446">B. 446</h2>
+      <h2><input type="radio" name="question3" value="437">C. 437</h2>
+      <h2><input type="radio" name="question3" value="552">D. 552</h2>
+    </div>
+	
+	 <div>
+      <h1>Q 4.What is 1004 % 3 (in programming language) ?</h>
+      <h2><input type="radio" name="question4" value="1">A. 1</h2>
+      <h2><input type="radio" name="question4" value="2">B. 2</h2>
+      <h2><input type="radio" name="question4" value="334.33">C. 334.33</h2>
+      <h2><input type="radio" name="question4" value="334">D. 334</h2>
+    </div>
+	
+	<div>
+      <h1>Q 5.Which of the following numbers gives 240 when added to its own square ?</h>
+      <h2><input type="radio" name="question5" value="15">A. 15</h2>
+      <h2><input type="radio" name="question5" value="16">B. 16</h2>
+      <h2><input type="radio" name="question5" value="18">C. 18</h2>
+      <h2><input type="radio" name="question5" value="20">D. 20</h2>
+    </div>
+	
+	<div>
+      <h1>Q 6.The simplest form of 1.5 : 2.5 is  _____  </h>
+      <h2><input type="radio" name="question6" value="6:10">A. 6:10</h2>
+      <h2><input type="radio" name="question6" value="15:25">B. 15:25</h2>
+      <h2><input type="radio" name="question6" value="0.75:1.25">C. 0.75:1.25</h2>
+      <h2><input type="radio" name="question6" value="3:5">D. 3:5</h2>
+    </div>
+	
+	
+	<div>
+      <h1>Q 7.What is the rate of discount if a car which price was $4,000 was sold for $3,200 ?</h>
+      <h2><input type="radio" name="question7" value="14%">A. 15%</h2>
+      <h2><input type="radio" name="question7" value="16%">B. 16%</h2>
+      <h2><input type="radio" name="question7" value="18%">C. 18%</h2>
+      <h2><input type="radio" name="question7" value="20%">D. 20%</h2>
+    </div>
+	
+	<div>
+      <h1>Q 8. 0.003 × 0.02 =  _____ ?</h>
+      <h2><input type="radio" name="question8" value="0.06">A. 0.06</h2>
+      <h2><input type="radio" name="question8" value="0.006">B. 0.006</h2>
+      <h2><input type="radio" name="question8" value="0.0006">C. 0.0006</h2>
+      <h2><input type="radio" name="question8" value="0.00006">D. 0.00006</h2>
+    </div>
+	
+	<div>
+      <h1>Q 9.10% of 20% of 30000 _____ ?</h>
+      <h2><input type="radio" name="question9" value="6">A. 6</h2>
+      <h2><input type="radio" name="question9" value="60">B. 60</h2>
+      <h2><input type="radio" name="question9" value="600">C. 600</h2>
+      <h2><input type="radio" name="question9" value="6000">D. 6000</h2>
+    </div>
+	
+	<div>
+      <h1>Q 10.An item marked as Rs.840 is sold at Rs. 714 then what is the Discount % ?</h>
+      <h2><input type="radio" name="question10" value="10">A. 10</h2>
+      <h2><input type="radio" name="question10" value="15">B. 15</h2>
+      <h2><input type="radio" name="question10" value="20">C. 20</h2>
+      <h2><input type="radio" name="question10" value="25">D. 25</h2>
+    </div>
+ <input type="button" name="  " value="SUBMIT" onclick="check()">
+ </form>
+ </body>
+ </html>
